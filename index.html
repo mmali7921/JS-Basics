@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <button onclick="show()">Click me</button>
+    <script>
+        function show(){
+            console.log("clicked");
+            var a=3
+            var b=4
+            var c=a+b
+            console.log("sum="+c)
+            //alert("sum="+c)
+            let d=4
+            console.log(d)
+
+            const e=3.14
+
+            var arr=[1,"apple",3,"orange"] //array
+            console.log(arr)
+            console.log(arr[1])
+
+            var obj={
+                name:"john",
+                age:25,
+                place:"LA"
+            } //object
+            
+            console.log(obj)
+            console.log(obj.name)
+
+
+            var students=[
+                {
+                    name:"john",
+                    age:25,
+                    place:"LA"
+                },
+                {
+                    name:"jane",
+                    age:22,
+                    place:"NY"
+                },
+                {
+                    name:"joe",
+                    age:23,
+                    place:"NJ"
+                }
+            ] //array of objects
+            console.log(students)
+            console.log(students[1].age)
+            
+
+        }
+    </script>    
+    
+</body>
+</html>
